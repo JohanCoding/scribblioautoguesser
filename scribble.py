@@ -9,7 +9,7 @@ keyboard = Controller()
 q = input("How many words>")
 
 if q == "1":
-    wordlen = input("how long is the word>")
+    wordlen = input("how long is the word(including spaces)>")
     wordlen = int(wordlen)
     string = open("scrribbliowords.txt", "r")
     wordslist = [word for word in string.read().split() if len(word)==wordlen]
@@ -30,7 +30,7 @@ if q == "1":
             lastword = word
             time.sleep(0.99)
 if q == str(2):
-    wordlen1 = input("how long is the word>")
+    wordlen1 = input("how long is the word(including spaces)>")
     wordlen = int(wordlen1)
     string = open("scrribbliowords.txt", "r")
     wordslist = [word for word in string.read().split() if len(word)==wordlen]
@@ -55,7 +55,7 @@ if q == str(2):
             lastword = word
             time.sleep(0.99)
 if q == str(3):
-    wordlen1 = input("how long is the word>")
+    wordlen1 = input("how long is the word(including spaces)>")
     wordlen = int(wordlen1)
     string = open("scrribbliowords.txt", "r")
     wordslist = [word for word in string.read().split() if len(word)==wordlen]
