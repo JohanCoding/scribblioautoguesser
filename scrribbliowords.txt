@@ -738,6 +738,8 @@ baby
 bad
 bag
 bagel
+Johan!Coding
+git!hub
 baguette
 balance
 balcony
