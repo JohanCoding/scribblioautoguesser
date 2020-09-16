@@ -31,7 +31,7 @@ if q == "1":
             keyboard.press(Key.enter)
             lastword = word
             time.sleep(0.99)
-if q == str(2):
+elif q == str(2):
     wordlen1 = input("how long is the word>")
     wordlen = int(wordlen1)
     string = open("scrribbliowords.txt", "r")
@@ -56,7 +56,7 @@ if q == str(2):
             keyboard.press(Key.enter)
             lastword = word
             time.sleep(0.99)
-if q == str(3):
+elif q == str(3):
     wordlen1 = input("how long is the word>")
     wordlen = int(wordlen1)
     string = open("scrribbliowords.txt", "r")
